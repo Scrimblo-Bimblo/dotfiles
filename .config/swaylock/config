@@ -1,0 +1,25 @@
+# indicator
+# no-unlock-indicator
+# daemonize
+indicator-caps-lock
+# datestr=%A
+image=$HOME/Pictures/helsing.jpg
+scaling=fill
+font=UbuntuMono
+font-size=20
+
+
+# Ring
+indicator-radius=360
+# line-uses-ring
+line-color=#887b78
+text-color=#f1e2df
+inside-color=#392f2d98
+inside-ver-color=#dea211
+line-ver-color=#dea211
+ring-ver-color=#dea21198
+ring-color=#887b78
+key-hl-color=#72ec8a
+separator-color=#887b78
+layout-text-color=#f1e2df
+line-wrong-color=#ff5555

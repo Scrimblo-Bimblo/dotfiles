@@ -1,0 +1,44 @@
+colors:
+  # Default colors
+  primary:
+    background: '0x342828'
+    foreground: '0xf4e0e0'
+
+  # Normal colors
+  normal:
+    black:   '0x342828'
+    red:     '0xff5555'
+    green:   '0xb6cc3b'
+    yellow:  '0xdd9e0c'
+    blue:    '0x97d2bc'
+    magenta: '0xf95a90'
+    cyan:    '0x90de81'
+    white:   '0xbfadad'
+
+  # Bright colors
+  bright:
+    black:   '0x8a7a7a'
+    red:     '0xff5555'
+    green:   '0xb6cc3b'
+    yellow:  '0xdd9e0c'
+    blue:    '0x97d2bc'
+    magenta: '0xf95a90'
+    cyan:    '0x90de81'
+    white:   '0xf4e0e0'
+
+key_bindings:
+    - { key: Return,   mods: Control|Shift, action: SpawnNewInstance }
+window.opacity: 1.00
+window:
+  padding:
+    x: 20
+    y: 20
+font:
+  normal:
+    family: "Fira Code SemiBold"
+    style: Regular
+  size: 10
+live_config_reload: true
+dynamic_padding: true
+shell:
+   program: /bin/fish
