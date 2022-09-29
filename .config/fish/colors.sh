@@ -1,0 +1,1 @@
+/home/scrimblo/vanhelsing-theme/shell/colors.sh
