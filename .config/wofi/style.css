@@ -1,7 +1,7 @@
 window {
   margin: 2px;
-  border: 2px solid #ff5555;
-  background-color: #ff5555;
+  border: 2px solid #ffdddd;
+  background-color: #ffdddd;
   font-family: Fira Sans SemiBold;
   font-size: 10pt;
   border-radius: 0px;
@@ -9,37 +9,37 @@ window {
   
   #input {
   margin: 5px;
-  border: 2px solid #342828;
-  background-color: #342828;
+  border: 2px solid #392525;
+  background-color: #392525;
   }
   
   #inner-box {
   margin: 2px;
-  border: 2px solid #342828;
-  background-color: #342828;
+  border: 2px solid #392525;
+  background-color: #392525;
   }
   
   #outer-box {
   margin: 2px;
-  border: 2px solid #342828;
-  background-color: #342828;
+  border: 2px solid #392525;
+  background-color: #392525;
   border-radius: 0px;
   }
   
   #scroll {
   margin: 5px;
-  border: 2px solid #342828;
-  background-color: #342828;
+  border: 2px solid #392525;
+  background-color: #392525;
   }
   
   #text {
   margin: 5px;
-  border: 2px #342828;
-  color: #f4e0e0;
+  border: 2px #392525;
+  color: #ffdddd;
   }
 
    #entry:selected {
-  background-color: #bfadad;
+  background-color: #ffdddd;
   }
 
   #text:selected {

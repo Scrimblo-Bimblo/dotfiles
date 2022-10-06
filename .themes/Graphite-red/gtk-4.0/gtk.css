@@ -1586,8 +1586,8 @@ pathbar > button.slider-button {
  **************/
 columnview.view,
 treeview.view {
-  border-left-color: #e0e0e0;
-  border-top-color: #e0e0e0;
+  border-left-color: #ffdddd;
+  border-top-color: #ffdddd;
   background-color: #FFFFFF;
 }
 

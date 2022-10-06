@@ -1,10 +1,10 @@
 ## FIRST LINE/ROW: Info & Status
 # First param ─┌
 [username]
-format = " [$user]($style) "
+format = "[$user]($style) "
 show_always = true
-style_root = "red"
-style_user = "red"
+style_root = "bold red"
+style_user = "bold red"
 
 # Second param
 [hostname]
@@ -72,8 +72,8 @@ time_format = "%T"
 
 # Prompt: param 2
 [character]
-error_symbol = " [×](bold red)"
-success_symbol = " [>](bold red)"
+error_symbol = "[×](bold red)"
+success_symbol = "[>](bold red)"
 
 # SYMBOLS
 [status]

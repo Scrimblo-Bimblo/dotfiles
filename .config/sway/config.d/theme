@@ -23,10 +23,10 @@ for_window [shell="x_wayland"] title_format "%class - %title"
 
 ## Window decoration
 # class                 border  backgr. text    indicator child_border
-client.focused          #ff5555 #342828 #f4e0e0 #ff5555   #ff5555
-client.focused_inactive #bfadad #342828 #bfadad #bfadad   #bfadad
-client.unfocused        #bfadad #342828 #bfadad #bfadad   #bfadad
-client.urgent           #ff5555 #342828 #f4e0e0 #ff5555   #ff5555
+client.focused          #ffdddd #392525 #ffdddd #ffdddd   #ffdddd
+client.focused_inactive #947777 #392525 #ffdddd #947777   #947777
+client.unfocused        #947777 #392525 #ffdddd #947777   #947777
+client.urgent           #ffdddd #392525 #ffdddd #ffdddd   #ffdddd
 
 #
 # Status Bar:

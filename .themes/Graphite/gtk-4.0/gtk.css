@@ -1479,7 +1479,7 @@ headerbar stackswitcher.linked:not(.vertical) > button:not(.suggested-action):no
 }
 
 headerbar stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action).text-button:checked {
-  background-color: #e0e0e0;
+  background-color: #ffdddd;
   color: rgba(0, 0, 0, 0.87);
 }
 
@@ -1586,8 +1586,8 @@ pathbar > button.slider-button {
  **************/
 columnview.view,
 treeview.view {
-  border-left-color: #e0e0e0;
-  border-top-color: #e0e0e0;
+  border-left-color: #ffdddd;
+  border-top-color: #ffdddd;
   background-color: #FFFFFF;
 }
 
@@ -4174,7 +4174,7 @@ windowcontrols button:not(.suggested-action):not(.destructive-action) image {
 }
 
 windowcontrols button:not(.suggested-action):not(.destructive-action).close:hover {
-  background-color: #e0e0e0;
+  background-color: #ffdddd;
   color: #392525;
 }
 
@@ -4705,7 +4705,7 @@ read if you used those and something break with a version upgrade you're on your
 @define-color wm_bg #392525;
 @define-color wm_unfocused_bg #392525;
 @define-color wm_button_close_icon #392525;
-@define-color wm_button_close_hover_bg #e0e0e0;
+@define-color wm_button_close_hover_bg #ffdddd;
 @define-color wm_button_close_active_bg #c7c7c7;
 /*
 FIXME this is really an API */

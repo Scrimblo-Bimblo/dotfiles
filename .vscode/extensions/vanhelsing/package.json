@@ -1,0 +1,27 @@
+{
+  "name": "vanhelsing",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+
+  "publisher": "scrimblo",
+  "engines": {
+      "vscode": "^1.0.0"
+  },
+  "categories": [
+      "Themes"
+  ],
+  "contributes": {
+      "themes": [
+          {
+              "label": "vanhelsing",
+              "uiTheme": "vs-dark",
+              "path": "./theme/vanhelsing.json"
+          }
+      ]
+  }
+}

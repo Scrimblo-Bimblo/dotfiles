@@ -3427,7 +3427,7 @@ searchbar > revealer > box {
 }
 
 .titlebar stackswitcher {
-  border: 2px solid #e0e0e0;
+  border: 2px solid #ffdddd;
 }
 
 .titlebar stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action).text-button:active {
@@ -3436,7 +3436,7 @@ searchbar > revealer > box {
 }
 
 .titlebar stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action).text-button:checked {
-  background-color: #e0e0e0;
+  background-color: #ffdddd;
   color: #392525;
 }
 
@@ -3614,7 +3614,7 @@ headerbar.windowhandle viewswitcher button:not(.titlebutton):not(.suggested-acti
 }
 
 headerbar.windowhandle viewswitcher button:not(.titlebutton):not(.suggested-action):not(.destructive-action):checked {
-  background-color: #e0e0e0;
+  background-color: #ffdddd;
   color: rgba(0, 0, 0, 0.87);
 }
 
@@ -6063,7 +6063,7 @@ button.titlebutton:not(.suggested-action):not(.destructive-action) {
 }
 
 button.titlebutton:not(.suggested-action):not(.destructive-action).close:hover {
-  background-color: #e0e0e0;
+  background-color: #ffdddd;
   color: #392525;
 }
 
@@ -6315,7 +6315,7 @@ popover.emoji-completion .emoji:hover {
 }
 
 .nautilus-window.background.csd notebook scrolledwindow .view:selected, .nautilus-window.background.csd notebook window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:selected:not(.progressbar):not(.trough), .nautilus-window.background.csd notebook filechooser stack.view scrolledwindow treeview.view:selected, filechooser stack.view .nautilus-window.background.csd notebook scrolledwindow treeview.view:selected {
-  background-color: #e0e0e0;
+  background-color: #ffdddd;
 }
 
 .nautilus-window.background.csd notebook placesview > stack > frame > scrolledwindow > viewport > list {
@@ -8060,7 +8060,7 @@ window.background.chromium decoration {
 
 window.background.chromium entry,
 window.background.chromium > button {
-  border: 1px solid #e0e0e0;
+  border: 1px solid #ffdddd;
 }
 
 window.background.chromium > button {
@@ -8094,7 +8094,7 @@ window.background.chromium treeview.view.cell:selected:focus, window.background.
 }
 
 window.background.chromium treeview.view button, window.background.chromium filechooser stack.view scrolledwindow treeview.view button, filechooser stack.view scrolledwindow window.background.chromium treeview.view button, window.background.chromium window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:not(.progressbar):not(.trough) button, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow window.background.chromium treeview.view:not(.progressbar):not(.trough) button {
-  border: 1px solid #e0e0e0;
+  border: 1px solid #ffdddd;
   background-color: #FFFFFF;
 }
 
@@ -8123,7 +8123,7 @@ tooltip.background.chromium {
 }
 
 #MozillaGtkWidget > widget > separator {
-  color: #e0e0e0;
+  color: #ffdddd;
 }
 
 #MozillaGtkWidget > widget > scrollbar {
@@ -8131,12 +8131,12 @@ tooltip.background.chromium {
 }
 
 #MozillaGtkWidget > widget > frame > border {
-  border-color: #e0e0e0;
+  border-color: #ffdddd;
 }
 
 #MozillaGtkWidget > widget > entry,
 #MozillaGtkWidget > widget > button > button {
-  border: 1px solid #e0e0e0;
+  border: 1px solid #ffdddd;
   border-radius: 6px;
   box-shadow: none;
 }
@@ -8212,11 +8212,11 @@ tooltip.background.chromium {
 }
 
 #MozillaGtkWidget > widget > frame {
-  color: #e0e0e0;
+  color: #ffdddd;
 }
 
 #MozillaGtkWidget menu > separator {
-  color: #e0e0e0;
+  color: #ffdddd;
 }
 
 window.background:not(.csd) > window > menu menuitem {
@@ -9858,7 +9858,7 @@ read if you used those and something break with a version upgrade you're on your
 @define-color wm_bg #392525;
 @define-color wm_unfocused_bg #392525;
 @define-color wm_button_close_icon #392525;
-@define-color wm_button_close_hover_bg #e0e0e0;
+@define-color wm_button_close_hover_bg #ffdddd;
 @define-color wm_button_close_active_bg #c7c7c7;
 /*
 FIXME this is really an API */
