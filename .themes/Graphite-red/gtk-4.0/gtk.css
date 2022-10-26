@@ -1536,11 +1536,11 @@ headerbar.default-decoration windowcontrols menubutton {
 }
 
 window.devel headerbar.titlebar {
-  background: #392525 cross-fade(10% -gtk-icontheme("system-run-symbolic"), image(transparent)) 90% 0/256px 256px no-repeat, linear-gradient(to right, transparent 65%, rgba(229, 57, 53, 0.2)), linear-gradient(to top, #242424, #392525 3px, #3b3b3b);
+  background: #3a2525 cross-fade(10% -gtk-icontheme("system-run-symbolic"), image(transparent)) 90% 0/256px 256px no-repeat, linear-gradient(to right, transparent 65%, rgba(229, 57, 53, 0.2)), linear-gradient(to top, #242424, #3a2525 3px, #3b3b3b);
 }
 
 window.devel headerbar.titlebar:backdrop {
-  background: #392525 cross-fade(10% -gtk-icontheme("system-run-symbolic"), image(transparent)) 90% 0/256px 256px no-repeat, image(#392525);
+  background: #3a2525 cross-fade(10% -gtk-icontheme("system-run-symbolic"), image(transparent)) 90% 0/256px 256px no-repeat, image(#3a2525);
   /* background-color would flash */
 }
 
@@ -1758,12 +1758,12 @@ treeview.view acceleditor > label {
  *********/
 menubar {
   padding: 0;
-  background-color: #392525;
+  background-color: #3a2525;
   color: white;
 }
 
 menubar:backdrop {
-  background-color: #392525;
+  background-color: #3a2525;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -4136,12 +4136,12 @@ window.dialog.message {
   margin: 0;
   padding: 2px;
   border-radius: 0;
-  background-color: #392525;
+  background-color: #3a2525;
   border: 2px solid #E53935;
 }
 
 .solid-csd window:backdrop {
-  background-color: #392525;
+  background-color: #3a2525;
 }
 
 window.maximized, window.fullscreen, window.tiled, window.tiled-top, window.tiled-right, window.tiled-bottom, window.tiled-left {
@@ -4175,12 +4175,12 @@ windowcontrols button:not(.suggested-action):not(.destructive-action) image {
 
 windowcontrols button:not(.suggested-action):not(.destructive-action).close:hover {
   background-color: #E53935;
-  color: #392525;
+  color: #3a2525;
 }
 
 windowcontrols button:not(.suggested-action):not(.destructive-action).close:active {
   background-color: #cd1e1a;
-  color: #392525;
+  color: #3a2525;
 }
 
 gridview > child:selected, modelbutton.flat:selected, row:selected, calendar:selected, calendar > grid > label.day-number:selected {
@@ -4702,9 +4702,9 @@ read if you used those and something break with a version upgrade you're on your
 @define-color wm_title white;
 @define-color wm_unfocused_title rgba(255, 255, 255, 0.7);
 @define-color wm_highlight rgba(255, 255, 255, 0.1);
-@define-color wm_bg #392525;
-@define-color wm_unfocused_bg #392525;
-@define-color wm_button_close_icon #392525;
+@define-color wm_bg #3a2525;
+@define-color wm_unfocused_bg #3a2525;
+@define-color wm_button_close_icon #3a2525;
 @define-color wm_button_close_hover_bg #E53935;
 @define-color wm_button_close_active_bg #cd1e1a;
 /*

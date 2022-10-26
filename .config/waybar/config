@@ -5,7 +5,7 @@
     //"width": 1350, // Waybar width
     // Choose the order of the modules idle_inhibitor
     "modules-left": ["custom/launcher","sway/workspaces", "sway/mode", "sway/window"],
-    "modules-right": ["custom/pacman", "backlight", "custom/keyboard-layout", "cpu", "memory", "battery", "network", "pulseaudio","tray", "idle_inhibitor", "clock","custom/power"], 
+    "modules-right": ["memory", "cpu", "idle_inhibitor", "custom/pacman", "custom/keyboard-layout", "network", "tray", "pulseaudio", "clock", "custom/power"], 
     
  // Modules configuration
  
@@ -22,7 +22,7 @@
 		"8": "8",
 		"9": "9",
 		"10": "10",
-        }
+	}
     },
     "sway/mode": {
         "format": "<span style=\"italic\">{}</span>"
@@ -38,7 +38,7 @@
         }
     },
     "tray": {
-        "icon-size": 14,
+        "icon-size": 13,
         "spacing": 5
     },
     "clock": {
@@ -48,15 +48,15 @@
         "format-alt": " {:%d/%m/%Y  %H:%M:%S}",
         //"timezones": [ "Kolkata" ],
         //"max-length": 200
-        "interval": 1
+        "interval": 1 
     },
     "cpu": {
-        "format": "﬙ {usage: >3}%",
-        "on-click": "alacritty -e htop"
+        "format": "C {usage: >3}%",
+        "on-click": "konsole -e htop"
     },
     "memory": {
-        "format": " {: >3}%",
-        "on-click": "alacritty -e htop"
+        "format": "M {: >3}%",
+        "on-click": "konsole -e htop"
     },
     "temperature": {
         // "thermal-zone": 2,
@@ -86,17 +86,17 @@
     },
      "network": {
         // "interface": "wlp2s0", // (Optional) To force the use of this interface
-        "format": "⚠ Disabled",
-        "format-wifi": " {essid}",
+        "format": "⊘ Disabled",
+        "format-wifi": "🖧 {essid}",
         "format-ethernet": " {ifname}: {ipaddr}/{cidr}",
-        "format-disconnected": "⚠ Disconnected",
-        "on-click": "alacritty -e nmtui"
+        "format-disconnected": "⊘ Disconnected",
+        "on-click": "konsole -e nmtui"
     },
     "pulseaudio": {
         "scroll-step": 5,
         "format": "{icon} {volume: >3}%",
         "format-bluetooth": "{icon} {volume: >3}%",
-        "format-muted":" muted",
+        "format-muted":"⊘ muted",
         "format-icons": {
             "headphones": "",
             "handsfree": "",
@@ -104,16 +104,16 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["", ""]
+            "default": ["🕩", "🕪"]
         },
-        "on-click": "pavucontrol"
+        "on-click": "pavucontrol",
     },
      "custom/pacman": {
-        "format": " {}",
+        "format": "ᗧ {}",
         "interval": 7200,                     // every two hours
         "exec": "i=$(checkupdates); echo \"$i\" |wc -l; echo \"$i\" |column -t |tr '\n' '\r'",       // # of updates and tooltip details
         "exec-if": "exit 0",                  // always run; consider advanced run conditions
-        "on-click": "alacritty -e sudo pacman -Syu", // update system
+        "on-click": "konsole -e sudo pacman -Syu", // update system
         "signal": 8
     },
     "custom/power": {
@@ -133,7 +133,7 @@
 },
      "custom/launcher": {
     	"format":" ",
-    	"on-click": "exec nwg-drawer -c 7 -is 70 -spacing 23",
+    	"on-click": "exec wofi",
     	"tooltip": false,
 },
 }

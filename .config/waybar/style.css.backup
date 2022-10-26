@@ -63,17 +63,17 @@ window#waybar.hidden {
 }
 
 #clock {
-  color: #392525;
+  color: #3a2525;
   background-color: #bfadad;
 }
 
 #battery {
   background-color: #bfadad;
-  color: #392525;
+  color: #3a2525;
 }
 
 #battery.charging {
-  color: #392525;
+  color: #3a2525;
   background-color: #bfadad;
 }
 
@@ -95,17 +95,17 @@ window#waybar.hidden {
 }
 
 label:focus {
-  background-color: #392525;
+  background-color: #3a2525;
 }
 
 #backlight {
   background-color: #bfadad;
-  color: #392525;
+  color: #3a2525;
 }
 
 #network {
   background-color: #bfadad;
-  color: #392525;
+  color: #3a2525;
 }
 
 #network.disconnected {
@@ -114,13 +114,13 @@ label:focus {
 
 #pulseaudio {
   background-color: #bfadad;
-  color: #392525;
+  color: #3a2525;
   border-radius: 5px 0px 0px 5px;
 }
 
 #pulseaudio.muted {
   background-color: #bfadad;
-  color: #392525;
+  color: #3a2525;
 }
 
 #idle_inhibitor {

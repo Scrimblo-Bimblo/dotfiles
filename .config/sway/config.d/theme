@@ -2,31 +2,31 @@
 exec_always ~/.config/sway/scripts/import-gsettings
 
 # Set inner/outer gaps
-gaps inner 8
+gaps inner 4
 gaps outer 0
 
 # Hide titlebar on windows: 
 default_border pixel 2
 
 # Default Font
-font pango:Fira Sans SemiBold 10
+font pango:Fira Sans Medium 10
 
 # Thin borders:
 smart_borders off
-
-# Set wallpaper:
-exec ~/.azotebg
 
 # Title format for windows
 for_window [shell="xdg_shell"] title_format "%title (%app_id)"
 for_window [shell="x_wayland"] title_format "%class - %title"
 
+# Background Color
+output * background #3a2525 solid_color
+
 ## Window decoration
 # class                 border  backgr. text    indicator child_border
-client.focused          #ffdddd #392525 #ffdddd #ffdddd   #ffdddd
-client.focused_inactive #947777 #392525 #ffdddd #947777   #947777
-client.unfocused        #947777 #392525 #ffdddd #947777   #947777
-client.urgent           #ffdddd #392525 #ffdddd #ffdddd   #ffdddd
+client.focused          #ffdddd #3a2525 #ffdddd #ffdddd   #ffdddd
+client.focused_inactive #947777 #3a2525 #ffdddd #947777   #947777
+client.unfocused        #947777 #3a2525 #ffdddd #947777   #947777
+client.urgent           #ffdddd #3a2525 #ffdddd #ffdddd   #ffdddd
 
 #
 # Status Bar:

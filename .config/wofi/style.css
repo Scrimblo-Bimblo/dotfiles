@@ -9,32 +9,32 @@ window {
   
   #input {
   margin: 5px;
-  border: 2px solid #392525;
-  background-color: #392525;
+  border: 2px solid #3a2525;
+  background-color: #3a2525;
   }
   
   #inner-box {
   margin: 2px;
-  border: 2px solid #392525;
-  background-color: #392525;
+  border: 2px solid #3a2525;
+  background-color: #3a2525;
   }
   
   #outer-box {
   margin: 2px;
-  border: 2px solid #392525;
-  background-color: #392525;
+  border: 2px solid #3a2525;
+  background-color: #3a2525;
   border-radius: 0px;
   }
   
   #scroll {
   margin: 5px;
-  border: 2px solid #392525;
-  background-color: #392525;
+  border: 2px solid #3a2525;
+  background-color: #3a2525;
   }
   
   #text {
   margin: 5px;
-  border: 2px #392525;
+  border: 2px #3a2525;
   color: #ffdddd;
   }
 
@@ -43,7 +43,7 @@ window {
   }
 
   #text:selected {
-  color: #392525;
+  color: #3a2525;
   }
   
   

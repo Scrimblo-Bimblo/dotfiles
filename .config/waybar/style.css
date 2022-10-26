@@ -13,8 +13,8 @@
 
 /*
 Polar Night
-nord0  #392525
-nord1  #392525
+nord0  #3a2525
+nord1  #3a2525
 nord2  #6b5252
 nord3  #6b5252
 Snow Storm
@@ -22,16 +22,16 @@ nord4  #ffdddd
 nord5  #ffdddd
 nord6  #ffdddd
 Frost
-nord7  #86dfbf
-nord8  #86dfbf
-nord9  #b0bee3
-nord10 #b0bee3
+nord7  #93d99e
+nord8  #93d99e
+nord9  #9acee7
+nord10 #9acee7
 Aurora
 nord11 #ff5555
 nord12 #f16b3a
 nord13 #d1a424
-nord14 #bdbd34
-nord15 #ff4d91
+nord14 #b0c646
+nord15 #f467c4
 */
 
 /* -----------------------------------------------------------------------------
@@ -53,20 +53,21 @@ nord15 #ff4d91
    }
 
 window#waybar {
-    background:#392525;
+    background:#3a2525;
 }
 
 #workspaces button {
     padding: 0px 0px;
     border-bottom: 2px;
-    color: #ffdddd;
-    border-color: #ffdddd;
+    color: #947777;
+    border-color: #947777;
     border-style: solid;
     margin-top:0px;
 }
 
 #workspaces button.focused {
-    border-color: #b0bee3;
+	color: #ff5555;
+	border-color: #ff5555;
 }
 
 #mode {
@@ -85,19 +86,7 @@ window#waybar {
 
  
 #clock {
- color:#bdbd34;
-}
-
-#backlight {
-    color: #d1a424;
-}
-
-#battery {
-    color: #ffdddd;
-}
-
-#battery.charging {
-    color: #b0bee3;
+ color:#ffdddd;
 }
 
 @keyframes blink {
@@ -107,57 +96,52 @@ window#waybar {
     }
 }
 
-#battery.critical:not(.charging) {
-    background: #ff5555;
-    color: #ffdddd;
-    animation-name: blink;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
 #cpu {
-    color:#bdbd34 ;
+    color:#ffdddd;
 }
 
 #memory {
-    color: #d3869b;
+    color: #ffdddd;
 }
 
 #network.disabled {
-    color:#ff5555;
+	background-color: #ff5555;
+    color: #ffffff;
 }
 
 #network{
-    color:#bdbd34;
+    color:#ffdddd;
 }
 
 #network.disconnected {
-    color: #ff5555;
+	background-color: #ff5555;
+    color: #ffffff;
 }
 
 #pulseaudio {
-    color: #ff4d91;
+    color: #b0c646;
 }
 
 #pulseaudio.muted {
-    color: #392525;
+	background-color: #ff5555;
+    color: #ffffff;
 }
 
 #temperature {
-    color: #86dfbf;
+    color: #ffdddd;
 }
 
 #temperature.critical {
-    color: #ff5555;
+	background-color: #ff5555;
+    color: #ffffff;
 }
 
 #idle_inhibitor {
-   color: #d1a424;
+   color: #ffdddd;
 }
 
 #tray {
+	color: #ffdddd;
 }
 
 #custom-launcher,#custom-power{
@@ -168,14 +152,12 @@ window#waybar {
 #window{
     border-style: hidden;
     margin-top:0px;  
-}    
+}
+
 #mode{
     margin-bottom:0px;
 }
 
 #custom-keyboard-layout{
-   color:#f16b3a;
-}   
-
-
-
+   color:#ffdddd;
+}

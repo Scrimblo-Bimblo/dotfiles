@@ -107,7 +107,7 @@ alias ls='ls -A --color=always --group-directories-first' # preferred listing
 # Replace some more things with better alternatives
 # alias cat='bat --style header --style rules --style snip --style changes --style header'
 # [ ! -x /usr/bin/yay ] && [ -x /usr/bin/paru ] && alias yay='paru'
-# alias vim='nvim'
+alias vim='nvim'
 
 # Common use
 # alias grubup="sudo update-grub"
@@ -134,46 +134,49 @@ alias ls='ls -A --color=always --group-directories-first' # preferred listing
 # alias gitpkg='pacman -Q | grep -i "\-git" | wc -l' # List amount of -git packages
 
 # # Get fastest mirrors
-# alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
-# alias mirrord="sudo reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist"
-# alias mirrors="sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
-# alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
+alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
+alias mirrord="sudo reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist"
+alias mirrors="sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
+alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
 
 # # Help people new to Arch
-# alias apt='man pacman'
-# alias apt-get='man pacman'
-# alias please='sudo'
-# alias tb='nc termbin.com 9999'
+alias apt='man pacman'
+alias apt-get='man pacman'
+alias please='sudo'
+alias tb='nc termbin.com 9999'
 
 # # Cleanup orphaned packages
-# alias cleanup='sudo pacman -Rns (pacman -Qtdq)'
+alias cleanup='sudo pacman -Rns (pacman -Qtdq)'
 
 # # Get the error messages from journalctl
-# alias jctl="journalctl -p 3 -xb"
+alias jctl="journalctl -p 3 -xb"
 
 # # Recent installed packages
-# alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
+alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
+
+alias vim="nvim"
+alias svim="sudo nvim"
 
 /bin/echo -e "
-  \e]P0342828
+  \e]P03a2525
   \e]P1ff5555
-  \e]P2b6cc3b
-  \e]P3dd9e0c
-  \e]P497d2bc
-  \e]P5f95a90
-  \e]P690de81
-  \e]P7bfadad
-  \e]P88a7a7a
+  \e]P2b0c646
+  \e]P3d39c00
+  \e]P49acee7
+  \e]P5f467c4
+  \e]P693d99e
+  \e]P7caaaaa
+  \e]P8947777
   \e]P9ff5555
-  \e]PAb6cc3b
-  \e]PBdd9e0c
-  \e]PC97d2bc
-  \e]PDf95a90
-  \e]PE90de81
-  \e]PFf4e0e0
+  \e]PAb0c646
+  \e]PBd39c00
+  \e]PC9acee7
+  \e]PDf467c4
+  \e]PE93d99e
+  \e]PFffdddd
   "
-# get rid of artifacts
-clear
+  # get rid of artifacts
+  clear
 
 ## Run fastfetch if session is interactive
 #if status --is-interactive && type -q fastfetch
